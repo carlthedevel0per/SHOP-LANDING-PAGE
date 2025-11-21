@@ -1,0 +1,428 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    overflow: auto;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+
+    /* Para ma-align yung items */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    
+}
+.navbar  ul {
+    list-style: none;
+    text-align: center;
+    display: block;
+    margin: 0px;
+    padding: 5px;
+    font-family: "Roboto";
+    font-size: 15px;
+
+    display: flex; /* gawing horizontal */
+    gap: 20px; /* pagitan ng items */
+}
+.navbar  li {
+    display: inline-block;
+    padding: 10px;
+}
+.navbar img {
+    height: 40px;
+}
+.navbar li:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+/* MAIN SECTION */
+
+.first_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: orange;
+    
+}
+.first_section img {
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+    height: 250px;
+    padding: 10px;
+    border: 2px outset;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+.first_section img:hover {
+    box-shadow: 0px 0px 20px black;
+}
+.keyboard_header h3{
+    font-size: 25px;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    
+}
+.keyboard_info p {
+    font-size: 20px;
+    font-family: "Roboto";
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+#keyboard_button {
+    padding: 10px;
+    background-color: rgb(11, 10, 9);
+    color: white;
+    font-size: 15px;
+    font-family: "Chewy";
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#keyboard_button:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px black;
+}
+#header_features {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Roboto Condensed";
+    padding: 50px;
+}
+#header_features::first-letter {
+    color: orange;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px orange;
+}
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.features img {
+    height: 250px;
+}    
+.features p {
+    font-size: 18px;
+    font-family: "Roboto Condensed";
+}
+#box1 {
+    border: 2px outset;
+    text-align: center;
+    margin: 15px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px orange;
+}
+#box2 {
+    border: 2px outset;
+    text-align: center;
+    margin: 15px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px orange;
+}
+#box3 {
+    border: 2px outset;
+    text-align: center;
+    margin: 15px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px orange;
+}
+#box1:hover {
+    box-shadow: 0px 0px 20px orange;
+    cursor: pointer;
+}
+#box2:hover {
+    box-shadow: 0px 0px 20px orange;
+    cursor: pointer;
+}
+#box3:hover {
+    box-shadow: 0px 0px 20px orange;
+    cursor: pointer;
+}
+#pricing_header {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Roboto Condensed";
+    padding: 30px;
+}
+#pricing_header::first-letter {
+    color: orange;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px orange;
+}
+.pricing_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: auto;
+    padding: 50px;
+    background-color: orange;
+    
+}
+.pricing_section h3 {
+    color: white;
+}
+.pricing_section p {
+    color: white;
+}
+.pricing_section button {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    margin: auto;
+}
+.pricing_section button:hover {
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px black;
+}
+#basic {
+    border: 2px outset;
+    padding: 20px;
+    text-align: center;
+    font-family: "Roboto Condensed";
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px black;
+}
+#standard {
+    border: 2px outset;
+    padding: 20px;
+    text-align: center;
+    font-family: "Roboto Condensed";
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px black;
+}
+#premium {
+    border: 2px outset;
+    padding: 20px;
+    text-align: center;
+    font-family: "Roboto Condensed";
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px black;
+}
+#basic:hover {
+    box-shadow: 0px 0px 20px black;
+}
+#standard:hover {
+    box-shadow: 0px 0px 20px black;
+}
+#premium:hover {
+    box-shadow: 0px 0px 20px black;
+}
+#contact_header {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Roboto Condensed";
+    margin: 40px;
+}
+#contact_header::first-letter {
+    color: orange;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px orange;
+}
+.contact_section {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    border: 2px outset;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px orange;
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.contact_section:hover {
+    box-shadow: 0px 0px 20px orange;
+}
+.contact_section h3 {
+    font-size: 18px;
+    font-family: "Roboto Condensed";
+    padding: 10px;
+}
+#submit {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: "Roboto Condensed";
+    border-radius: 20px;
+}
+#submit:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px orange;
+}
+#subscribe {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-family: "Roboto Condensed";
+    border-radius: 20px;
+}
+#subscribe:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px orange;
+}
+#email {
+    font-size: 16px;
+    font-family: "Chewy";
+    margin-right: 5px;
+}
+#textbox {
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid;
+    box-shadow: 0px 0px 10px orange;
+    text-align: center;
+    font-family: "Roboto Condensed";
+}
+.footer_section {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 0 auto;
+    background-color: orange;
+    padding: 13px;
+    flex-direction: row;
+}
+.footer_section a {
+    text-decoration: none;
+}
+
+.fa-brands.fa-youtube.fa-2x {
+    color: white;
+}
+.fa-brands.fa-facebook.fa-2x {
+    color: white;
+}
+.fa-brands.fa-twitter.fa-2x {
+    color: white;
+}
+.fa-brands.fa-tiktok.fa-2x {
+    color: white;
+}
+.copyright {
+     font-family: "Roboto Condensed";
+     font-size: 15px;
+     color: white;
+}
+.icon {
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+.icon:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        font-size: 16px;
+    }
+    .first_section img {
+        max-width: 100%;
+        height: auto;
+    }
+    .first_section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .keyboard_header h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .keyboard_info p {
+        font-size: 18px;
+        max-width: 100%;
+        height: auto;
+    }
+    #keyboard_button {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    #header_features {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    .features {
+        flex-direction: column;
+        padding: 5px;
+        margin: 5px;
+    }
+    .features_box {
+        padding: 20px;
+        width: 80%;
+    }
+    .features_box img {
+        max-width: 100%;
+        height: auto;
+    }
+    .features_box p {
+        max-width: 100%;
+        height: auto;
+    }
+    #pricing_header {
+        font-size: 25px;
+    }
+    .pricing_section {
+        flex-direction: column;
+        gap: 20px;
+        max-width: 100%;
+        height: auto;
+    }
+    .price {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .price h3 {
+        font-size: 20px;
+    }
+    .price p {
+        font-size: 18px;
+    }
+    .price button {
+        font-size: 16px;
+        width: 50%;
+    }
+    #contact_header {
+        font-size: 25px;
+    }
+}
